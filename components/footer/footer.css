@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+}
+.content-footer{
+    
+}
+.content-footer .lang{
+    padding: 10px 0px;
+    border-bottom:1px solid #DDDFE2;
+}
+.content-footer .lang a{
+    margin-right: 5px;
+    font-size: 12px;
+    color: #40699E;
+}
+.content-footer .lang a.active{
+    color: #888888;
+}
+.content-footer .other{
+   margin: 10px 0px 15px;
+
+}
+.content-footer .other a{
+    margin-right: 12px;
+    font-size: 12px;
+    display: inline-block;
+    color: #40699E;
+    cursor: pointer;
+}
+.content-footer .copyright{
+    font-size: 11px;
+    color: #777777;
+}

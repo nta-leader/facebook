@@ -1,0 +1,138 @@
+a{
+    text-decoration: none;
+}
+.content-main{
+    display: flex;
+    padding: 40px 0px;
+}
+.content-main .left{
+    flex-grow: 1;
+}
+.content-main .left h2{
+    font-size: 20px;
+    width: 420px;
+    color: #003A65;
+}
+.content-main .right{
+    width: 409px;
+}
+.content-main .right h2{
+   font-size: 36px;
+   margin-bottom: 5px;
+}
+.content-main .right h3{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.content-main .right .fullname{
+    display: flex;
+    margin-bottom: 15px;
+}
+.content-main .right .fullname input{
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #BBC7D7;
+    color: #1B1F34;
+}
+.content-main .right .fullname input::placeholder{
+    color: #96A6C0;
+}
+.content-main .right .fullname input:focus{
+   outline: none;
+}
+.content-main .right .fullname input:nth-child(2){
+    margin-left: 5px;
+}
+.content-main .right .username, .content-main .right .password{
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #BBC7D7;
+    color: #1B1F34;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.content-main .right .username::placeholder, .content-main .right .password::placeholder{
+    color: #96A6C0;
+}
+.content-main .right .username:focus, .content-main .right .password:focus{
+    outline: none;
+}
+.content-main .right .select{
+    display: flex;
+    flex-direction: column;
+}
+.content-main .right .select label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #8F949B;
+    margin-bottom: 5px;
+}
+.content-main .right .select .birthday{
+    display: flex;
+    margin-bottom: 15px;
+}
+.content-main .right .select .birthday select{
+    background-color: white;
+    height: 30px;
+    font-size: 13px;
+    padding: 5px;
+}
+.content-main .right .select .birthday select:focus{
+    outline: none;
+}
+.content-main .right .gender{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.content-main .right .gender label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #8F949B;
+    margin-bottom: 5px;
+}
+.content-main .right .gender .radio{
+    font-size: 18px;
+}
+.content-main .right .gender .radio input:nth-child(2){
+    margin-left: 10px;
+}
+.content-main .right p{
+    font-size: 11px;
+    width: 316px;
+    margin-bottom: 15px;
+    color: #888CAD;
+}
+.content-main .right p a{
+    color: #315E97;
+}
+.content-main .right .submit{
+    margin-bottom: 15px;
+}
+.content-main .right .submit .btn-submit{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid #9e9e9ea6;
+    border-radius: 5px;
+    padding: 7px 20px ;
+    min-width: 192px;
+    cursor: pointer;
+}
+.content-main .right .create-page{
+    font-size: 13px;
+    font-weight: 600;
+    color: #666666;
+}
+.content-main .right .create-page a{
+    color: #1E6BB5;
+}

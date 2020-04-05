@@ -1,0 +1,61 @@
+.content{
+    display: flex;
+    color: white;
+    padding: 13px 0px 6px;
+}
+.content .logo{
+    font-size: 40px;
+    font-weight: 800;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.content .form{
+    display: flex;
+    flex-direction: column;
+}
+.content .form .login{
+    display: flex;
+}
+.content .form .login .input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+.content .form .login .input label{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.content .form .login .input input{
+    width: 142px;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 3px;
+}
+.content .form .login .input input:focus{
+    outline: none;
+}
+.content .form .login .input.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+.content .form .login .input.submit .btn-submit{
+    border: 1px solid #1B4A7A;
+    background-color: #326AAE;
+    color: #ffffff;
+    padding: 3px 7px;
+    cursor: pointer;
+}
+.content .form .login .input.submit .btn-submit:focus{
+    outline: 1px solid rgba(255, 255, 255, 0.486);
+}
+.content .form .other{
+    text-align: center;
+    margin-left:24px;
+    margin-top: 5px;
+}
+.content .form .other a{
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 12px;
+}
